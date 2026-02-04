@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+     <style>
+        .card img {
+            height: 200px;
+            border-radius: 15px;
+            padding: 2%;
+        }
+        body {
+            background: linear-gradient(135deg,rgb(63, 63, 125));
+        }
+        h1 {
+            font-family: monospace;
+            color: azure;
+        }
+        .card{
+            background: azure;
+        }
+        .container {
+            font-family: 'Times New Roman' ;
+            font-size: 18px;
+        }
+     </style>
+
+</head>
+<body>
+     <div class="container">
+
+        <div class="text-center my-3">
+            <h1 >FRUITS BENEFITS</h1>
+            <!-- <hr /> -->
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/apple.jpg" alt="apple">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Apple 🍎</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Apple is a nutritious fruit rich in fiber and antioxidants. 
+                            It helps improve digestion, supports heart health, and it boosts immunity . . .
+                            </p>
+                            <!-- <p>It is commonly eaten fresh and is known for promoting overall wellness.</p> -->
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/banana.jpg" alt="banana">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Banana 🍌</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Banana is an energy-rich fruit packed with potassium and essential nutrients. 
+                            It supports muscle function, aids digestion, and helps maintain blood pressure . . .                          
+                            <!-- It is an ideal fruit for instant energy. -->
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/mango.jpg" alt="mango">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Mango 🥭</h2>
+                        </div>
+                        <div class="card-text"> 
+                            <p>Mango is a delicious tropical fruit known as the “king of fruits”. 
+                            It is rich in vitamins A and C, which strengthen immunity and improve eye and skin health . . .
+                            <!-- Mango also aids digestion. -->
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/orange.jpg" alt="orange">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Orange 🍊</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Orange is a citrus fruit famous for its high vitamin C content. 
+                            It helps boost the immune system, keeps the body hydrated, and improves skin health . . . 
+                            <!-- Oranges are refreshing and widely consumed. -->
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/pineapple.jpg" alt="orange">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Pineapple 🍍</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Pineapple is a tropical fruit rich in enzymes and antioxidants. 
+                            It helps in digestion, reduces inflammation, and supports immunity . . . 
+                            <!-- Its sweet and tangy taste makes it popular worldwide. -->
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/strawberry.jpg" alt="orange">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Strawberry 🍓</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Strawberry is a bright red fruit rich in antioxidants and vitamins. 
+                            It supports heart health, improves skin quality, and helps control blood sugar levels . . .
+                            <!-- It is both nutritious and flavorful. -->
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end" onclick="read()">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/watermelon.jpg" alt="watermelon">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Watermelon 🍉</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Watermelon is a refreshing fruit with high water content. 
+                                It helps keep the body hydrated, supports heart health, and provides essential vitamins. 
+                                It is especially popular during summer . . .
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/grapes.jpg" alt="orange">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Grapes 🍇</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Grapes are small, juicy fruits rich in antioxidants and vitamins. 
+                                They help improve heart health, boost immunity, and provide quick energy. 
+                                Grapes also support healthy skin and digestion . . .
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-5 shadow-sm">
+                    <img src="./images/cherry.jpg" alt="orange">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Cherry 🍒</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>Cherry is a small, colorful fruit rich in antioxidants. 
+                                It helps reduce inflammation, improves sleep quality, and supports heart health. 
+                                Cherries are known for their sweet and tangy flavor . . .
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary float-end" onclick="read()">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+     </div>
+
+<script>
+    function read()
+    {
+        let text = document.getElementsByClassName("card-text").value
+        text.innerText = "it is both ";
+    }
+</script>
+
+</body>
+</html>
